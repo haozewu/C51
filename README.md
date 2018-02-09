@@ -9,6 +9,7 @@ Then configure the path file
 #difference
 
 exp:
+	sdcc			keil
 	#include<8052.h>	#include<reg52.h>
 	#define pin P0_0	sbit pin=P0^0;
 	
