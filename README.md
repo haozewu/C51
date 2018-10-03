@@ -1,7 +1,7 @@
 # C51
 
 
-#environment
+## environment
 Firstly, install sdcc on</br>
 http://sourceforge.net/projects/sdcc/files/snapshot_builds/i586-mingw32msvc-setup/sdcc-20180208-10228-setup.exe</br>
 Then configure the path file
@@ -11,7 +11,7 @@ Then configure the path file
 2、只适合个人和小团队开发，不适合中型、大型开发
 3、是收费软件，需要付费
 ```
-#difference
+## difference
 ```
 exp
 
