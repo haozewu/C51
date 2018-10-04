@@ -1,0 +1,42 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "rmdir",
+            "args": [
+                "/s/q",
+                "${workspaceFolder}\\tmp\\*"
+            ],
+        },
+        {
+            "label": "convert",
+            "type": "shell",
+            "command": "packihx",
+            "args": [
+                "${workspaceFolder}\\tmp\\${fileBasenameNoExtension}.ihx",
+                ">",
+                "${workspaceFolder}\\${fileBasenameNoExtension}.hex"
+            ],
+        },
+        {
+            "label": "compile",
+            "type": "shell",
+            "command": "sdcc",
+            "args": [
+                "${file}",
+                "-o",
+                "${workspaceFolder}\\tmp\\${fileBasenameNoExtension}.ihx",
+                "-I",
+                "${workspaceFolder}\\include"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

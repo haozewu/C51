@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "C51",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:\\Program Files\\SDCC\\include\\mcs51",
+                "C:\\Program Files\\SDCC\\include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\Program Files\\SDCC\\bin\\sdcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

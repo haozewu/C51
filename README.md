@@ -2,8 +2,13 @@
 
 
 ## environment
-Firstly, install sdcc on</br>
-http://sourceforge.net/projects/sdcc/files/snapshot_builds/i586-mingw32msvc-setup/sdcc-20180208-10228-setup.exe</br>
+
+编译器官方网站http://sdcc.sourceforge.net/
+下载地址https://sourceforge.net/projects/sdcc/files/
+选合适的版本就可以了，比如我https://sourceforge.net/projects/sdcc/files/sdcc-win64/3.8.0/sdcc-3.8.0-x64-setup.exe/download
+Firstly, install sdcc</br>
+例程网址https://www.pjrc.com/tech/8051/
+</br>
 Then configure the path file
 ```
 为什么不使用MDK:
