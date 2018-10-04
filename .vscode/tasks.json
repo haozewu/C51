@@ -6,33 +6,15 @@
         {
             "label": "clean",
             "type": "shell",
-            "command": "rmdir",
+            "command": "mingw32-make",
             "args": [
-                "/s/q",
-                "${workspaceFolder}\\tmp\\*"
-            ],
-        },
-        {
-            "label": "convert",
-            "type": "shell",
-            "command": "packihx",
-            "args": [
-                "${workspaceFolder}\\tmp\\${fileBasenameNoExtension}.ihx",
-                ">",
-                "${workspaceFolder}\\${fileBasenameNoExtension}.hex"
+                "clean"
             ],
         },
         {
             "label": "compile",
             "type": "shell",
-            "command": "sdcc",
-            "args": [
-                "${file}",
-                "-o",
-                "${workspaceFolder}\\tmp\\${fileBasenameNoExtension}.ihx",
-                "-I",
-                "${workspaceFolder}\\include"
-            ],
+            "command": "mingw32-make",
             "group": {
                 "kind": "build",
                 "isDefault": true

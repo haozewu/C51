@@ -2,7 +2,9 @@
 
 
 ## environment
-
+注意：我把VSCode的语法错误提示屏蔽了，想要的删除.vscode的setting.json
+注意，代码文件默认放在usr中
+临时文件旺仔tmp中
 编译器官方网站http://sdcc.sourceforge.net/
 下载地址https://sourceforge.net/projects/sdcc/files/
 选合适的版本就可以了，比如我https://sourceforge.net/projects/sdcc/files/sdcc-win64/3.8.0/sdcc-3.8.0-x64-setup.exe/download
