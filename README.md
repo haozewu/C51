@@ -2,7 +2,7 @@
 
 ### 目录
 
-[为什么选择SDCC而不是Keil](#what-is-brook)
+[为什么选择SDCC而不是Keil](#为什么选择sdcc而不是keil)
 
 [下载与配置](#下载与配置)
 
@@ -10,7 +10,7 @@
 
 [贡献指南](#贡献指南)
 
-[SDCC和Keil语法差异](#SDCC和Keil语法差异)
+[SDCC和Keil语法差异](#sdcc和keil语法差异)
 
 [其他资料](#其他资料)
 
