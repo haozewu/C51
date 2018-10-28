@@ -1,7 +1,7 @@
 /**
- * 这是我写的第一个样例，忘记是干嘛的了
  * @author： ciabeta.
  * @email: ?
+ * @description: 这是我写的第一个样例，忘记是干嘛的了
  */
 #include <8052.h>
 

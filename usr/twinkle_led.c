@@ -1,7 +1,9 @@
 /**
- * @小苹果 的例程
+ * @author: 小苹果
  */
 #include<8052.h>
+
+
 #define uint unsigned int 		//�궨��(���ӷֺ�)
 #define uchar unsigned char 	//�궨�壨���ӷֺţ�
 #define D1 P1_0
