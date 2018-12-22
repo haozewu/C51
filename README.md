@@ -38,15 +38,11 @@
 
 ## 关于本项目说明
 
-VSCode的语法错误提示已经被屏蔽，需要的自行删除.vscode的setting
-
-如果删除语法错误屏蔽，正确的书写方法会报一些错误
-
-代码文件默认放在usr文件夹中
-
-临时文件放在tmp文件夹中
-
-目前的Makefile仅支持C51单文件编译
+1. VSCode的语法错误提示已经被屏蔽，需要的自行删除.vscode的setting（如果删除语法错误屏蔽，正确的书写方法会报一些错误）
+2. 代码文件默认放在usr文件夹中，临时文件放在tmp文件夹中
+3. 目前的Makefile仅支持C51单文件编译
+4. Publish的批处理文件是用来一键删除所有的临时文件和生成过的hex文件，如果想要删除tmp文件夹下的临时文件和生成过的hex文件，可以运行publish.bat
+5. 使用时，打开VSCode，点击File-Open Folder，然后选择本repo的文件夹，如果你按照默认目录安装sdcc，你打开一个usr文件夹下的C文件，然后点击Terminal-RunBuildTask，即可成功编译并生成可烧录的hex文件。
 
 ## 贡献指南
 
@@ -57,7 +53,7 @@ VSCode的语法错误提示已经被屏蔽，需要的自行删除.vscode的sett
 ```c
 #include<8052.h>//#include<reg52.h>
 #define pin P0_0//sbit pin=P0^0;
-//declare nvic function before use
+//declare nvic function before use 在使用中断函数之前要声明
 ```
 
 ## 其他资料

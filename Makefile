@@ -24,3 +24,4 @@ clean :
 		$(tmpdir)\$(cname).map $(tmpdir)\$(cname).mem \
 		$(tmpdir)\$(cname).rel $(tmpdir)\$(cname).rst \
 		$(tmpdir)\$(cname).sym $(cname).hex
+	
