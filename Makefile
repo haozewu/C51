@@ -10,6 +10,7 @@ proj = output
 tmpdir = tmp
 usrdir = usr
 all : $(cname).hex
+	mkdir tmp
 
 $(cname).hex : $(cname).ihx
 	packihx $(tmpdir)/$(cname).ihx > $(cname).hex
@@ -20,5 +21,13 @@ $(cname).ihx : $(usrdir)/$(cname).c
 .PHONY : clean
 clean :
 	rm *.hex
-	rm tmp/*
+	rm tmp/*.rel
+	rm tmp/*.rst
+	rm tmp/*.sym
+	rm tmp/*.mem
+	rm tmp/*.map
+	rm tmp/*.lst
+	rm tmp/*.lk
+	rm tmp/*.ihx
+	rm tmp/*.asm
 	
